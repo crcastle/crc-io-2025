@@ -1,0 +1,21 @@
+# TODO
+
+- [ ] Fix max width on Posts page for mobile
+- [ ] Make homepage text / typeface look better
+- [-] ~~Replace existing font with self-hosted version~~
+- [x] Check links for correctness and images for legibility on all posts
+- [-] ~~Optimize images for size?~~
+- [ ] Add favicon
+- [ ] Add logo and description in `hugo.toml`
+- [ ] Deploy to GitHub Pages or Cloudflare or somewhere (search for faster static web serving platform)
+- [ ] Create redirects for old crc.io posts (and projects) to new URLs
+- [ ] Redirect DNS from old crc.io to new one
+- [ ] Create necessary well-known page for Tailscale OIDC
+- [ ] Duplicate any other special files or redirects from blot.im
+- [ ] Move BlueSky account to self-hosted account on crc.io
+- [ ] Re-add Projects section and display projects like monochrome theme's bookshelf page
+- [ ] Finish "Deploy Pocket ID on Fly.io" post and deploy (change date to June 1?)
+- [ ] Update new post template on Obsidian to have correct frontmatter attributes for site
+- [ ] Automate publishing of posts from Obsidian to site
+- [ ] Add link to Resume in top nav
+- [ ] Update image shortcode to do some image processing on build like https://nilsnh.no/2018/06/10/hugo-how-to-add-support-for-responsive-images-trough-image-processing-and-page-bundles-3/

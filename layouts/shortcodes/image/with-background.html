@@ -1,0 +1,9 @@
+{{- with .Page.Resources.Get (.Get "src") }}
+<div style="background-color: rgba(0, 0, 0, 0.3); padding: 10px; border: 1px solid rgba(0, 0, 0, 0.6);">
+{{ if eq .MediaType.SubType "svg" }}
+    <img src="{{ .RelPermalink }}" loading="lazy" alt="{{ $.Get "alt" }}" />
+{{- else }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy" alt="{{ $.Get "alt" }}"/>
+{{- end }}
+</div>
+{{- end -}}

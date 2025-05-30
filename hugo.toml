@@ -1,0 +1,66 @@
+baseURL = 'https://crc.io'
+languageCode = 'en-us'
+title = 'Chris Castle'
+theme = 'maverick'
+enableRobotsTXT = true
+timeZone = "America/Los_Angeles"
+
+[permalinks]
+  pages = "/:slug"
+
+[params]
+  logo = ''
+  description = ''
+  author = 'Chris Castle'
+  items = 10
+  [params.comments]
+    enable = false
+  [params.icons]
+    throw_on_error = true
+
+[markup]
+  [markup.highlight]
+  style = 'monokailight'
+  tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menus]
+  [[menus.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = -110
+  # [[menus.main]]
+  #   identifier = "projects"
+  #   name = "Projects"
+  #   url = "/projects"
+  #   weight = -150
+  [[menus.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = -200
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+[outputFormats.rss]
+  baseName = "atom"
+
+[outputFormats.json]
+  baseName = "feed"
+
+[[module.imports]]
+  path = 'github.com/hugomods/icons/vendors/font-awesome'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    respectDoNotTrack = true
+
+# ignoreErrors = ["error-remote-getjson"]
