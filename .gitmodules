@@ -1,7 +1,4 @@
 [submodule "themes/maverick"]
 	path = themes/maverick
-	url = https://github.com/canhtran/maverick.git
-[submodule "themes/hugo-theme-monochrome"]
-	path = themes/hugo-theme-monochrome
-	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
+	url = git@github.com:crcastle/maverick.git
 
