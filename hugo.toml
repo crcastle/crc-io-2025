@@ -9,7 +9,7 @@ timeZone = "America/Los_Angeles"
   pages = "/:slug"
 
 [params]
-  logo = ''
+  logo = '/favicon.ico'
   description = ''
   author = 'Chris Castle'
   items = 10
