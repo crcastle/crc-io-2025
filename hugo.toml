@@ -41,6 +41,11 @@ timeZone = "America/Los_Angeles"
     name = "Posts"
     url = "/posts"
     weight = -200
+  [[menus.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://crcastle.github.io/resume/"
+    weight = -150
 
 [taxonomies]
   tag = "tags"
